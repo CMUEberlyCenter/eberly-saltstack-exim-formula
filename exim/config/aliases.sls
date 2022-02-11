@@ -54,5 +54,5 @@ exim/virtual-aliases/{{ domain }}:
 {%- endfor %}
 
 exim/newaliases:
-  cmd.wait:
+  cmd.wait:  # noqa: 213
     - name: newaliases
